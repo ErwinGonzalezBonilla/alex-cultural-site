@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b0b0b"/><stop offset=".52" stop-color="#1b1b1b"/><stop offset="1" stop-color="#ff641f"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#g)"/>
+<circle cx="920" cy="320" r="250" fill="#ffffff" opacity=".06"/>
+<circle cx="920" cy="320" r="170" fill="#ff641f" opacity=".12"/>
+<path d="M720 620 Q830 300 1010 160" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="95"/>
+<text x="70" y="95" fill="#ff641f" font-family="Arial" font-size="24" font-weight="700" letter-spacing="6">ALEX CULTURAL</text>
+<text x="70" y="585" fill="#fff" font-family="Arial" font-size="54" font-weight="800">RUTA Y SON</text>
+<text x="70" y="630" fill="#d0d0d0" font-family="Arial" font-size="22" letter-spacing="4">LA MÚSICA SIEMPRE NOS ENCUENTRA</text>
+</svg>
