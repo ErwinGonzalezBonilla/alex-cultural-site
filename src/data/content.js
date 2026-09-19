@@ -9,41 +9,38 @@ export const artist = {
 
 export const slides = [
   {
-    image: "/images/slide-1.svg",
+    image: "/images/slide-1.png",
     alt: "Alex Cultural tocando trompeta",
   },
   {
-    image: "/images/slide-2.svg",
+    image: "/images/slide-2.png",
     alt: "Alex Cultural en un atardecer",
   },
   {
-    image: "/images/slide-3.svg",
+    image: "/images/slide-3.png",
     alt: "Alex Cultural en directo",
   },
 ];
 
 export const tracks = [
-  { title: "Caracas en mí", artist: "Alex Cultural", duration: "03:56", src: "/audio/demo-01.wav" },
-  { title: "Buenas Vibras", artist: "Alex Cultural", duration: "04:12", src: "/audio/demo-02.wav" },
-  { title: "Ruta y Son", artist: "Alex Cultural", duration: "03:48", src: "/audio/demo-03.wav" },
-  { title: "Entre Notas", artist: "Alex Cultural", duration: "04:21", src: "/audio/demo-01.wav" },
-  { title: "La Vida es Ahora", artist: "Alex Cultural", duration: "03:39", src: "/audio/demo-02.wav" },
+  {
+    title: "El Perfume",
+    artist: "Alex Cultural",
+    duration: "—",
+    src: "/audio/el-perfume.mp3",
+  },
+  {
+    title: "Mi Pana Lucho",
+    artist: "Alex Cultural",
+    duration: "—",
+    src: "/audio/mi-pana-lucho.mp3",
+  },
 ];
 
 export const videos = [
   {
-    title: "Ruta y Son (Video Oficial)",
-    duration: "04:12",
-    youtubeId: "ScMzIvxBSi4",
-  },
-  {
-    title: "Caracas en mí (Live Session)",
-    duration: "03:56",
-    youtubeId: "ScMzIvxBSi4",
-  },
-  {
-    title: "Buenas Vibras (En Vivo)",
-    duration: "05:03",
-    youtubeId: "ScMzIvxBSi4",
+    title: "También Me Gustas",
+    duration: "",
+    youtubeId: "1-PZI1BTcow",
   },
 ];
