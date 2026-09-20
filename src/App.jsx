@@ -545,26 +545,21 @@ function Videos() {
 
         {videos.map((video) => (
 
-          <a
+          <div
             className="video-card"
-            href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
-            target="_blank"
-            rel="noreferrer"
             key={video.title}
           >
 
-            <div className="video-thumb">
+            {/* VIDEO DE YOUTUBE DENTRO DE LA WEB */}
+            <div className="video-frame">
 
-              <img
-                src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
-                alt=""
+              <iframe
+                src={`https://www.youtube.com/embed/${video.youtubeId}`}
+                title={video.title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
               />
-
-              <span className="video-play">
-                <Play
-                  fill="currentColor"
-                />
-              </span>
 
             </div>
 
@@ -580,7 +575,7 @@ function Videos() {
 
             </div>
 
-          </a>
+          </div>
 
         ))}
 
